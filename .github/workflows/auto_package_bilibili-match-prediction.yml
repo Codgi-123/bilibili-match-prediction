@@ -1,6 +1,7 @@
 name: Auto_Package_bilibili-match-prediction
 
 on:
+  workflow_dispatch: # 手动触发
   push:
     branches:
       - main
